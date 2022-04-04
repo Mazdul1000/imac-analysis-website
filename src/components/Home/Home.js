@@ -29,7 +29,7 @@ const Home = () => {
 
                 <div className='w-full my-[50px]'><img className='w-[80%] mx-auto rounded-lg' src={bannerImg} alt="" /></div>
                 <div>
-                    <h2 className="mt-4 text-3xl font-mono font-bold text-[#1D1D1F]">The premium attractive screen world have never seen</h2>
+                    <h2 className="mt-4 text-3xl font-mono font-bold text-[#1D1D1F]">The premium attractive screen world have never seen before</h2>
                 </div>
             </div>
 

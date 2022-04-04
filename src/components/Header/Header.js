@@ -11,6 +11,7 @@ const Header = () => {
                    <CustomLink className="link mr-2 text-[20px] font-bold px-4 py-2" to='/'>Home</CustomLink>
                    <CustomLink className="link mr-2 text-[20px] font-bold px-4 py-2" to='/reviews'>Reviews</CustomLink>
                    <CustomLink className="link mr-2 text-[20px] font-bold px-4 py-2" to='/blogs'>Blogs</CustomLink>
+                   <CustomLink className="link mr-2 text-[20px] font-bold px-4 py-2" to='/dashboard'>Dashboard</CustomLink>
                    <CustomLink className="link mr-2 text-[20px] font-bold px-4 py-2" to='/about'>About</CustomLink>
                </div>
             </nav>

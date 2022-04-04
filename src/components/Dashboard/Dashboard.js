@@ -16,11 +16,11 @@ const Dashboard = () => {
                     <SimpleLinechart></SimpleLinechart>
                 </div>
                 <div>
-                    <h1 className='text-2xl mb-3 font-bold  text-[#8884d8]'>Investment vs Sell</h1>
+                    <h1 className='text-2xl mb-3 font-bold  text-[#8884d8]'>Investment vs Revenue</h1>
                     <SimpleAreaChart></SimpleAreaChart>
                 </div>
                 <div>
-                    <h1 className='text-2xl mb-3 font-bold  text-[#8884d8]'>Investment vs Sell</h1>
+                    <h1 className='text-2xl mb-3 font-bold  text-[#8884d8]'>Investment vs Revenue</h1>
                     <SimpleBarChart></SimpleBarChart>
                 </div>
 

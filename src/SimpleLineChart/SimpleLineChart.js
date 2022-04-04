@@ -9,7 +9,7 @@ const SimpleLinechart = () => {
   
     return (
         <div>
-            <h1>hi</h1>
+            
             <LineChart width={500} height={400} data={chartData}>
     <Line type="monotone" dataKey="sell" stroke="#8884d8" activeDot={{ r: 8 }}/>
     <XAxis dataKey="month" />
@@ -18,9 +18,6 @@ const SimpleLinechart = () => {
     <CartesianGrid strokeDasharray="3 3" />
     <Legend></Legend>
   </LineChart>
-            <LineChart width={500}
-          height={300}
-          data={chartData}></LineChart>
         </div>
     );
 };

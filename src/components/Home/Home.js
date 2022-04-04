@@ -4,10 +4,10 @@ import useReviews from '../../hooks/useReviews';
 import Review from '../Review/Review';
 import bannerImg from '../../images/banner.jpg';
 import { ArrowNarrowRightIcon } from '@heroicons/react/solid';
-import { useSpring, animated } from 'react-spring'
+
 
 const Home = () => {
-    const [reviews, setReviews] = useReviews();
+    const [reviews] = useReviews();
     const navigate = useNavigate();
     const cutReviews = reviews.slice(0, 3);
 

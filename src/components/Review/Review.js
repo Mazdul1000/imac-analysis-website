@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Review = (props) => {
-    const{id,name,avatar,message,rating,designation} = props.review;
+    const{name,avatar,message,rating,designation} = props.review;
     return (
         <div className='w-full bg-slate-300 p-5 rounded-lg shadow-2xl mt-5 hover:scale-105'>
             <img className='h-[90px] w-[90px] mx-auto rounded-[50%]' src={avatar} alt="" />

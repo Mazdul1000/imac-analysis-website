@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react';
+
 import { LineChart, Line, XAxis, YAxis, Tooltip, Legend, CartesianGrid } from 'recharts';
 import useChartData from '../hooks/useChartData';
 
 const SimpleLinechart = () => {
     
-    const [chartData,setChartData] = useChartData();
+    const [chartData] = useChartData();
     console.log(chartData)
   
     return (

@@ -3,7 +3,7 @@ import Review from '../Review/Review';
 
 const Reviews = () => {
    
-    const [reviews,setReviews] = useReviews();
+    const [reviews] = useReviews();
     return (
         <div className='w-[90%] mx-auto'>
             <h1 className="text-4xl my-10 font-semibold">Customer Reviews ({reviews.length})</h1>

@@ -10,7 +10,7 @@ const Home = () => {
     const [reviews] = useReviews();
     const navigate = useNavigate();
     const cutReviews = reviews.slice(0, 3);
-
+// for repo test
     return (
         <div>
             <div>
